@@ -31,6 +31,9 @@ h1.time {
   font-size: 8rem;
 }
 @media screen and (min-width: 200px) and (max-width: 720px) {
+  html{
+    font-size: 60%!important;
+  }
   h1.time {
     font-size: 4rem;
   }
