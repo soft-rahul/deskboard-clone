@@ -63,7 +63,31 @@ function quotes() {
         उस काम को करने में हैं,
         जिसे लोग कहते हैं.
         “तुम नहीं कर सकते”`,
-        `I find that the harder I work, the more luck I seem to have.`
+        `I find that the harder I work, the more luck I seem to have.`,
+        `The man who does not read books has no advantage over the one who cannot read them.`,
+        `Education is the passport to the future, for tomorrow belongs to those who prepare for it today.`,
+        `Teachers can open the door, but you must enter it yourself.`,
+        `The beautiful thing about learning is that no one can take it away from you.`,
+        `Education is the most powerful weapon you can use to change the world.`,
+        `Don’t let what you cannot do interfere with what you can do.`,
+        `A person who never made a mistake never tried anything new`,
+        `Learning is never done without errors and defeat`,
+        `The expert in anything was once a beginner `,
+        `Genius is 10% inspiration, 90% perspiration.`,
+        `Success is the sum of small efforts, repeated`,
+        `You are braver than you believe, stronger than you seem and smarter than you think.`,
+        `Learn from yesterday. Live for today. Hope for tomorrow.`,
+        `Today a reader. Tomorrow a leader`,
+        `He who asks a question is a fool for five minutes; he who does not ask a question remains a fool forever.`,
+        `You have to be odd to be no.1.`,
+        `Focus on your goal. Don’t look in any direction but ahead`,
+        `Do something now; your future self will thank you for later.`,
+        `Don’t try to be perfect. Just try to be better than you were yesterday.`,
+        `A little progress each day adds up to big results.`,
+        `“Skill is only developed by hours and hours of work.” – Usain Bolt`,
+        `You will never always be motivated. You have to learn to be disciplined.`,
+        `Self-discipline is the magic power that makes you virtually unstoppable`
+
 
 
     ];
