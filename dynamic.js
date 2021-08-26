@@ -143,18 +143,17 @@ let voices = []; // global array of available voices
 window.speechSynthesis.onvoiceschanged = () => {
   // Get List of Voices
   voices = window.speechSynthesis.getVoices();
-  console.log(voices[1]);
   speech.voice = voices[1];
 };
 
 speech.lang = "en-US"
-speech.rate = .8;
+speech.rate = 0.5;
 speech.pitch = 1;
-speech.volume =1;
+speech.volume = 1;
 
 speech.text = h2.textContent;
  window.speechSynthesis.speak(speech);
- console.log(speech);
+
 
 
 

@@ -32,18 +32,22 @@ h1.time {
 }
 @media screen and (min-width: 200px) and (max-width: 720px) {
   html{
-    font-size: 60%!important;
+    font-size: 80%!important;
   }
   h1.time {
     font-size: 4rem;
   }
   h2.greet{
-      font-size: 1.1rem;
+      font-size: 1.2rem !important;
   }
   h2.q{
-      font-size: 1rem;
+      font-size: 1.2rem !important;
+      line-height: 1.2;
   }
 
+  section.main-section{
+    width: 100% !important;
+  }
 }
 
 h2.greet {
