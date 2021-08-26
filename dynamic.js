@@ -125,7 +125,46 @@ function quotes() {
 
   let h2 = document.querySelector(".q");
   h2.textContent = myQuotes[Math.floor(Math.random() * myQuotes.length)];
+
+
+
+
+
+  // !----- new feature start -----!
+// Text To Speech feature added
+
+let speech = new SpeechSynthesisUtterance();
+
+
+
+
+let voices = []; // global array of available voices
+
+window.speechSynthesis.onvoiceschanged = () => {
+  // Get List of Voices
+  voices = window.speechSynthesis.getVoices();
+  console.log(voices[1]);
+  speech.voice = voices[1];
+};
+
+speech.lang = "en-US"
+speech.rate = .8;
+speech.pitch = 1;
+speech.volume =1;
+
+speech.text = h2.textContent;
+ window.speechSynthesis.speak(speech);
+ console.log(speech);
+
+
+
+
+// !----- new feature end -----!
+
+
 }
+
+
 setInterval(quotes, 20 * 1000);
 
 // Time
