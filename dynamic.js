@@ -147,13 +147,25 @@ window.speechSynthesis.onvoiceschanged = () => {
 };
 
 speech.lang = "en-US"
-speech.rate = 0.5;
+speech.rate = 0.6;
 speech.pitch = 1;
-speech.volume = 1;
+speech.volume = 0;
 
 speech.text = h2.textContent;
  window.speechSynthesis.speak(speech);
 
+// !----- on and off -----! 
+
+const onBtn = document.querySelector('#voiceOn');
+const offBtn = document.querySelector('#voiceOff');
+
+onBtn.addEventListener('click',() =>{
+  speech.volume = 1;
+});
+
+offBtn.addEventListener('click',() =>{
+  speech.volume = 0;
+});
 
 
 
